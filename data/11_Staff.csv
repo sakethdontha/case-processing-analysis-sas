@@ -1,0 +1,31 @@
+﻿StaffID,StaffDisplayName,TeamID,StaffRole,ActiveFlag
+STF0001,Team 1 Leader,TEAM01,Team Leader,1
+STF0002,Team 1 ADA 1,TEAM01,Assistant District Attorney,1
+STF0003,Team 1 ADA 2,TEAM01,Assistant District Attorney,1
+STF0004,Team 1 ADA 3,TEAM01,Assistant District Attorney,1
+STF0005,Team 1 ADA 4,TEAM01,Assistant District Attorney,1
+STF0006,Team 1 ADA 5,TEAM01,Assistant District Attorney,1
+STF0007,Team 2 Leader,TEAM02,Team Leader,1
+STF0008,Team 2 ADA 1,TEAM02,Assistant District Attorney,1
+STF0009,Team 2 ADA 2,TEAM02,Assistant District Attorney,1
+STF0010,Team 2 ADA 3,TEAM02,Assistant District Attorney,1
+STF0011,Team 2 ADA 4,TEAM02,Assistant District Attorney,1
+STF0012,Team 2 ADA 5,TEAM02,Assistant District Attorney,1
+STF0013,Team 3 Leader,TEAM03,Team Leader,1
+STF0014,Team 3 ADA 1,TEAM03,Assistant District Attorney,1
+STF0015,Team 3 ADA 2,TEAM03,Assistant District Attorney,1
+STF0016,Team 3 ADA 3,TEAM03,Assistant District Attorney,1
+STF0017,Team 3 ADA 4,TEAM03,Assistant District Attorney,1
+STF0018,Team 3 ADA 5,TEAM03,Assistant District Attorney,1
+STF0019,Team 4 Leader,TEAM04,Team Leader,1
+STF0020,Team 4 ADA 1,TEAM04,Assistant District Attorney,1
+STF0021,Team 4 ADA 2,TEAM04,Assistant District Attorney,1
+STF0022,Team 4 ADA 3,TEAM04,Assistant District Attorney,1
+STF0023,Team 4 ADA 4,TEAM04,Assistant District Attorney,1
+STF0024,Team 4 ADA 5,TEAM04,Assistant District Attorney,1
+STF0025,Team 5 Leader,TEAM05,Team Leader,1
+STF0026,Team 5 ADA 1,TEAM05,Assistant District Attorney,1
+STF0027,Team 5 ADA 2,TEAM05,Assistant District Attorney,1
+STF0028,Team 5 ADA 3,TEAM05,Assistant District Attorney,1
+STF0029,Team 5 ADA 4,TEAM05,Assistant District Attorney,1
+STF0030,Team 5 ADA 5,TEAM05,Assistant District Attorney,1

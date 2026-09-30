@@ -1,0 +1,11 @@
+﻿CourtroomID,CourtLevel,CourtroomNumber,CourtroomLabel,TeamID
+GS03,General Sessions,3,General Sessions Court 3,TEAM01
+CC04,Criminal Court,4,Criminal Court 4,TEAM01
+GS01,General Sessions,1,General Sessions Court 1,TEAM02
+CC02,Criminal Court,2,Criminal Court 2,TEAM02
+GS05,General Sessions,5,General Sessions Court 5,TEAM03
+CC01,Criminal Court,1,Criminal Court 1,TEAM03
+GS02,General Sessions,2,General Sessions Court 2,TEAM04
+CC05,Criminal Court,5,Criminal Court 5,TEAM04
+GS04,General Sessions,4,General Sessions Court 4,TEAM05
+CC03,Criminal Court,3,Criminal Court 3,TEAM05

@@ -1,0 +1,55 @@
+﻿OffenseCode,OffenseDescription,OffenseCategory,OffenseClass
+39-13-202,First Degree Murder,Homicide,Felony M
+39-13-210,Second Degree Murder,Homicide,Felony A
+39-12-101 / 39-13-202,Criminal Attempt First Degree Murder,Homicide,Felony A
+39-13-211,Voluntary Manslaughter,Homicide,Felony C
+39-12-101 / 39-13-211,Criminal Attempt Voluntary Manslaughter,Homicide,Felony D
+39-13-213,Vehicular Homicide - Intoxication,Homicide,Felony B
+39-13-213,Vehicular Homicide - Reckless,Homicide,Felony C
+39-13-102,Aggravated Assault,Violent,Felony C
+39-13-102,Aggravated Assault - Reckless,Violent,Felony D
+39-13-101,Assault,Violent,Misdemeanor A
+39-13-111,Domestic Assault,Domestic Violence,Misdemeanor A
+39-13-103,Reckless Endangerment with a Deadly Weapon,Violent,Felony E
+39-13-502,Aggravated Rape,Sexual Offense,Felony A
+39-13-503,Rape,Sexual Offense,Felony B
+39-13-304,Aggravated Kidnapping,Violent,Felony B
+39-13-305,Especially Aggravated Kidnapping,Violent,Felony A
+39-13-404,Carjacking,Violent,Felony B
+39-13-402,Aggravated Robbery,Violent,Felony B
+39-13-401,Robbery,Violent,Felony C
+39-15-401,Child Abuse or Neglect - Child Under Age 6,Child Offense,Felony E
+39-17-315,Stalking,Domestic Violence,Misdemeanor A
+39-17-315,Aggravated Stalking,Domestic Violence,Felony E
+39-14-103,"Theft of Property $1,000 or Less",Property,Misdemeanor A
+39-14-103,"Theft of Property $1,000-$2,500",Property,Felony E
+39-14-103,"Theft of Property $2,500-$10,000",Property,Felony D
+39-14-103,"Theft of Property $10,000-$60,000",Property,Felony C
+39-14-103,"Theft of Property $60,000-$250,000",Property,Felony B
+39-14-402,Burglary of Motor Vehicle,Property,Felony E
+39-14-402,Burglary - Building,Property,Felony D
+39-14-403,Aggravated Burglary,Property,Felony C
+39-14-408,"Vandalism $1,000 or Less",Property,Misdemeanor A
+39-14-408,"Vandalism $1,000-$2,500",Property,Felony E
+39-14-150,Identity Theft,Fraud,Felony D
+39-14-114,"Forgery $2,500-$10,000",Fraud,Felony D
+39-14-701,Possession of Burglary Tools,Property,Misdemeanor A
+39-16-301,Criminal Impersonation,Fraud,Misdemeanor B
+39-16-503,Tampering with or Fabricating Evidence,Public Administration,Felony C
+39-17-418,Unauthorized Possession of Controlled Substance,Drug,Misdemeanor A
+39-17-417,Possession of Marijuana with Intent to Sell or Distribute,Drug,Felony E
+39-17-417,"Possession of Cocaine with Intent to Manufacture, Deliver, or Sell",Drug,Felony B
+39-17-417,"Possession of Methamphetamine with Intent to Manufacture, Deliver, or Sell",Drug,Felony B
+39-17-425,Possession of Drug Paraphernalia,Drug,Misdemeanor A
+39-17-1324,Employing a Firearm During Commission of a Dangerous Felony,Weapons,Felony C
+39-17-1307,Convicted Felon in Possession of a Handgun,Weapons,Felony E
+39-17-1307,Unlawful Carrying or Possession of a Weapon,Weapons,Felony B
+39-16-603,Evading Arrest,Public Order,Misdemeanor A
+39-16-603,Intentionally Evading Arrest in a Motor Vehicle,Public Order,Felony E
+39-16-602,"Resisting Stop, Frisk, Halt, Arrest, or Search",Public Order,Misdemeanor B
+55-10-401,Driving Under the Influence,Driving,Misdemeanor A
+55-10-205,Reckless Driving,Driving,Misdemeanor B
+55-50-504,Driving While License Invalidated,Driving,Misdemeanor B
+39-17-305,Disorderly Conduct,Public Order,Misdemeanor C
+55-8-136,Failure to Exercise Due Care,Driving,Misdemeanor C
+40-39-208,Violation of Sex Offender Registry Act,Public Order,Felony E

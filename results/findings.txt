@@ -1,0 +1,204 @@
+
+### 3a. Inventory by court level and status
+CaseStatus        Closed  Open   All
+CourtLevel                          
+Criminal Court      1506    17  1523
+General Sessions    4249    25  4274
+All                 5755    42  5797
+
+### 3b. Disposition counts
+CaseDisposition   Acquittal  Conviction at Trial  Dismissed  Guilty Plea  Guilty Plea - As Charged  Guilty Plea - Lesser Charge  Held to State  Held to State - Information  Nolle Prosequi
+CourtLevel                                                                                                                                                                                 
+Criminal Court           45                   77        356            0                       474                          345              0                            0             209
+General Sessions          0                    0       1106          658                         0                            0           1370                          350             765
+
+### 3b. Disposition row percent
+CaseDisposition   Acquittal  Conviction at Trial  Dismissed  Guilty Plea  Guilty Plea - As Charged  Guilty Plea - Lesser Charge  Held to State  Held to State - Information  Nolle Prosequi
+CourtLevel                                                                                                                                                                                 
+Criminal Court          3.0                  5.1       23.6          0.0                      31.5                         22.9            0.0                          0.0            13.9
+General Sessions        0.0                  0.0       26.0         15.5                       0.0                          0.0           32.2                          8.2            18.0
+
+### 4a. Days to disposition by court level
+                   count   mean    50%    75%     max
+CourtLevel                                           
+Criminal Court    1506.0  483.7  473.0  686.8  1339.0
+General Sessions  4249.0  195.9  178.0  256.0  1233.0
+
+### 4b. Days to disposition by disposition type
+                             count   mean  median
+CaseDisposition                                  
+Held to State                 1370  168.7   166.0
+Guilty Plea                    658  187.6   177.5
+Held to State - Information    350  173.1   179.5
+Nolle Prosequi                 974  231.2   193.5
+Dismissed                     1462  330.4   239.0
+Conviction at Trial             77  425.5   424.0
+Guilty Plea - Lesser Charge    345  456.0   437.0
+Guilty Plea - As Charged       474  473.4   470.0
+Acquittal                       45  509.1   504.0
+
+### 5a. Continuance rate overall
+40.4% of 27,709 events
+
+### 5a. Continuance rate by event type
+                            count    sum  mean
+EventType                                     
+Report Date                 19019  11193  58.9
+Arraignment                  4274      0   0.0
+Criminal Court Arraignment   1523      0   0.0
+Sent to Grand Jury           1370      0   0.0
+Indictment                   1173      0   0.0
+Information Filed             350      0   0.0
+
+### 5b. Continuance reasons
+ContinuanceReason
+Witness unavailable       1649
+New defense counsel       1639
+Plea negotiations         1622
+Co-defendant alignment    1599
+Evidence review           1588
+Attorney unavailable      1570
+Mental evaluation         1526
+Name: count, dtype: int64
+
+### 5c. Cycle time by continuance count
+          count  median   mean
+ContBand                      
+0           743   167.0  200.9
+1          1741   193.0  228.0
+2          1535   218.0  270.5
+3           993   221.0  277.9
+4+          743   395.0  435.1
+
+### 5d. Correlation of continuances with cycle time
+Pearson 0.308   Spearman 0.255
+
+### 6a. Charge volume by category
+OffenseCategory
+Property                 3696
+Drug                     2124
+Violent                  1294
+Driving                  1269
+Public Order             1125
+Weapons                   852
+Domestic Violence         743
+Fraud                     617
+Homicide                  225
+Public Administration      84
+Sexual Offense             75
+Child Offense              64
+Name: count, dtype: int64
+
+### 6a. Charge volume by class
+OffenseClass
+Misdemeanor A    4329
+Felony E         2222
+Felony C         1466
+Felony D         1463
+Misdemeanor B    1148
+Felony B          896
+Misdemeanor C     422
+Felony A          162
+Felony M           60
+Name: count, dtype: int64
+
+### 6b. Charge outcome by category (row percent)
+ChargeDisposition      Acquittal  Conviction at Trial  Dismissed  Guilty Plea  Guilty Plea - As Charged  Guilty Plea - Lesser Charge  Held to State  Held to State - Information  Nolle Prosequi
+OffenseCategory                                                                                                                                                                                 
+Child Offense                0.0                  3.2       20.6         19.0                      11.1                          7.9           23.8                          3.2            11.1
+Domestic Violence            0.4                  1.2       25.3         11.9                       6.6                          7.1           23.9                          7.0            16.7
+Driving                      0.4                  1.4       28.1         11.3                       7.5                          4.6           24.3                          6.5            16.0
+Drug                         0.5                  0.8       24.4         11.5                       9.0                          5.7           25.8                          5.2            17.1
+Fraud                        1.1                  0.8       25.1         17.2                       6.9                          5.6           23.4                          5.7            14.1
+Homicide                     1.8                  2.2       28.0          9.3                       8.9                          6.7           17.8                          6.7            18.7
+Property                     1.0                  1.5       25.3         12.2                       7.1                          5.9           23.6                          7.2            16.2
+Public Administration        1.2                  1.2       30.1         10.8                       6.0                          4.8           20.5                          7.2            18.1
+Public Order                 0.9                  1.4       26.5         11.4                       6.9                          6.1           24.8                          5.4            16.6
+Sexual Offense               0.0                  2.7       27.0          2.7                      14.9                          8.1           25.7                          6.8            12.2
+Violent                      0.5                  1.1       24.0          7.9                      10.4                          5.6           25.3                          6.3            18.8
+Weapons                      1.3                  0.8       26.1          9.5                       8.4                          5.6           24.3                          4.9            19.2
+
+### 7a. Diversion outcome by type
+DiversionStatus     Active  Revoked  Successful
+DiversionType                                  
+AG Diversion             8       13          53
+Alternative Court       13       20          76
+Judicial Diversion      21       38         172
+
+### 7b. Completion rate on closed diversions
+                    Closed  Successful  SuccessPct
+DiversionType                                     
+Judicial Diversion     210         172        81.9
+AG Diversion            66          53        80.3
+Alternative Court       96          76        79.2
+
+### 7c. Revocation reasons
+RevocationReason
+Failure to comply with program requirements    22
+Failure to report                              22
+New offense                                    14
+Failure to complete treatment                  13
+Name: count, dtype: int64
+
+### 8a. Sentence length by sentence type
+               TotalSentenceMonths              IncarcerationMonths              ProbationMonths             
+                             count  mean median               count  mean median           count  mean median
+SentenceType                                                                                                 
+Incarceration                  291  41.8   24.0                 291  41.8   24.0             291   0.0    0.0
+Probation                      319  44.6   36.0                 319   0.0    0.0             319  44.6   36.0
+Split Sentence                 334  40.7   24.0                 334   8.9    6.0             334  31.7   18.0
+
+### 8b. Sentence length by offense class
+               count  median
+OffenseClass                
+Misdemeanor B     16    60.0
+Felony M           6    48.0
+Felony E         201    36.0
+Felony B         133    36.0
+Felony D         113    36.0
+Misdemeanor A    313    24.0
+Felony C         107    24.0
+Felony A          19    18.0
+Misdemeanor C     36    18.0
+
+### 9a. Caseload and cycle time by team
+        Cases  MedianDays  AvgContinuances TeamName
+TeamID                                             
+TEAM01   1196       214.0             1.87   Team 1
+TEAM02   1132       198.0             1.88   Team 2
+TEAM03   1140       224.0             1.96   Team 3
+TEAM04   1135       219.0             1.96   Team 4
+TEAM05   1194       214.5             1.97   Team 5
+
+### 9b. Caseload per assigned staff
+                             count   sum   mean  min  max
+StaffRole                                                
+Assistant District Attorney     25  4878  195.1  166  228
+Team Leader                      5   919  183.8  175  197
+
+### 10a. Filings by year and court level
+CourtLevel  Criminal Court  General Sessions   All
+FilingYear                                        
+2024                   287              2144  2431
+2025                   797              2130  2927
+2026                   438                 0   438
+2027                     1                 0     1
+All                   1523              4274  5797
+
+### 10b. Age of pending cases
+                  count   mean    50%    max
+CourtLevel                                  
+Criminal Court     17.0  379.8  448.0  619.0
+General Sessions   25.0  578.5  600.0  882.0
+
+### 10c. Pending over one year
+30 of 42 (71.4%)
+
+### 11. Data quality exceptions
+Disposition dated before filing     0
+Filing date after as-of date       83
+Closed case with no disposition     0
+Case carrying no charges            0
+Offense with no parent case         0
+Sentence with no parent case        0
+Defendants with no case             0
